@@ -35,7 +35,8 @@ public class SkillLevelUpEvent extends Event {
 
     @Override
     public HandlerList getHandlers() {
-        return handlers;
+//        return handlers;
+    return handlers;
     }
 
     public static HandlerList getHandlerList() {
